@@ -1,0 +1,211 @@
+
+/* OptionTree */
+#option-tree-settings-api .ui-tabs {
+	/*overflow: hidden;*/
+	padding-top: 15px;
+}
+
+.ui-tabs #footer { display: none; }
+
+form#option-tree-options-layouts-form {
+	display: none;
+}
+
+.format-setting.type-checkbox label {
+	float: none;
+	padding-top: 0 !important;
+}
+
+.format-setting.type-checkbox .iPhoneCheckContainer label {
+	padding: 5px 0 0 0 !important;
+}
+
+.iPhoneCheckContainer, .iPhoneCheckContainer label {
+	font-size: 13px !important;
+}
+
+.iPhoneCheckContainer label {
+	
+}
+
+.iPhoneCheckContainer {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.ot-metabox-wrapper {
+	/*font-family: 'Lato', Arial, sans-serif;*/
+	font-family: Arial, sans-serif !important;
+	font-size: 13px;
+}
+
+#page-ot_theme_options {
+	width: 1000px;
+	margin: 25px auto;
+	/*font-family: 'Lato', Arial, sans-serif;*/
+	font-family: Arial, sans-serif !important;
+	font-size: 13px;
+}
+
+.format-setting .description {
+	color: #888;
+	/*font-size: 12px;*/ 
+	width: 30%;
+}
+
+.format-setting .description strong {
+	color: #333;
+	font-weight: bold;
+}
+
+.format-setting .format-setting-inner {
+	width: 67%;
+}
+
+.format-setting .description p {
+	line-height: 1.5em;
+}
+
+.ui-state-default.ui-corner-top.ui-tabs-selected.ui-state-active,
+.wrap.settings-wrap .ui-tabs-nav li.ui-state-active {
+	font-size: 14px !important;
+	font-weight: normal;
+	padding: 10px 5px;
+	border-left: 7px solid #555 !important;
+	border-top: 0;
+	border-bottom: 0;
+	/*border-top-left-radius: 5px;
+	border-bottom-left-radius: 4px !important;*/
+	text-shadow: none;
+	box-shadow: -1px 1px 1px #666;
+}
+
+.ui-state-default.ui-corner-top.ui-tabs-selected.ui-state-active a,
+.wrap.settings-wrap .ui-tabs-nav li.ui-state-active a {
+	color: #333 !important;
+	border-bottom: 0;
+	padding: 3px 5px 5px 12px !important;
+}
+
+.ui-state-default.ui-corner-top {
+	padding: 5px 8px 0;
+	text-shadow: 0 1px 1px #BBB;
+}
+
+.ui-state-default.ui-corner-top a {
+	color: #444 !important;
+	padding: 3px 5px 9px 12px !important;
+	border-bottom: 1px dashed #AAA;
+	outline: none !important;
+}
+
+.ui-state-default.ui-corner-top a:hover {
+	color: #222 !important;
+}
+
+.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all {
+	width: 182px;
+}
+
+#option-tree-settings-api .ui-tabs {
+	background: #fff url('../images/admin/ot-menu-bg.png') repeat-y 0 0;
+	/*background-position: 29px;*/
+}
+
+#option-tree-settings-api .description h3, #option-tree-settings-api .format-setting-label .label, .metabox-holder .format-setting-label .label {
+	/*font-family: 'Lato', sans-serif !important;*/
+	font-family: Arial, sans-serif !important;
+	font-size: 18px !important;
+	color: #333 !important;
+	
+}
+
+.select-wrapper span {
+	font-size: 13px;
+}
+
+/* Version Header */
+#option-tree-header li {
+	float: right;
+}
+#option-tree-header #option-tree-version span {
+	border: none;
+	font-size: 12px;
+}
+
+#option-tree-header {
+	margin: 0 5px 0 2px;
+	background: none;
+	color: #333;
+}
+
+#option-tree-sub-header {
+	border-top: 1px solid #ccc;
+	background: #E9E9E9;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+/* End Version Header */
+
+/* Custom Sidebar */
+#section_ux_section_sidebar .list-item-description {
+	display: none;
+}
+
+#section_ux_section_sidebar .option-tree-list-item-add {
+	float: left !important;
+}
+
+.wrap.settings-wrap .ui-tabs-nav {
+	background: none;
+	margin: 0 0 0 -6px;
+}
+
+.option-tree-setting .open:hover {
+	background-color: #F2F2F2;
+	font-weight: bold;
+}
+
+.option-tree-ui-button.blue {
+	background: #555;
+	border: 1px solid #333;
+}
+
+.option-tree-ui-button.blue:hover {
+	background: #888;
+	border: 1px solid #666;
+}
+
+.option-tree-ui-button.grey {
+	background: #4881CB;
+	border: 1px solid #4881CB;
+	font-size: 14px;
+	text-shadow: 0 1px 1px #333;
+	box-shadow: 1px 1px 1px #CCC;
+	height: 37px;
+}
+
+.option-tree-ui-button.grey:hover {
+	background: #5D95E3;
+	border: 1px solid #5D95E3;
+}
+
+button.reset-settings {
+	top: -49px;
+} 
+
+.type-radio-image .option-tree-ui-radio-images img.option-tree-ui-radio-image-selected, .type-radio-image .option-tree-ui-radio-images img:hover {
+	background: #BBB;
+}
+
+.option-tree-ui-buttons {
+	background: #E9E9E9;
+	margin: -1px 5px 0 2px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.option-note {
+	color: blue !important;
+}
+
